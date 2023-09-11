@@ -1,0 +1,85 @@
+﻿[
+  {
+    "function": "Register",
+    "params": {
+      "email": "user1@gmail.com",
+      "firstName": "user1",
+      "lastName": "user1",
+      "password": "asASD876!@"
+    }
+  },
+  {
+    "function": "CreateSystemManager",
+    "params": {
+      "email": "user1@gmail.com"
+    }
+  },
+  {
+    "function": "Register",
+    "params": {
+      "email": "user2@gmail.com",
+      "firstName": "user2",
+      "lastName": "user2",
+      "password": "asASD876!@"
+    }
+  },
+  {
+    "function": "Register",
+    "params": {
+      "email": "user3@gmail.com",
+      "firstName": "user3",
+      "lastName": "user3",
+      "password": "asASD876!@"
+    }
+  },
+  {
+    "function": "Register",
+    "params": {
+      "email": "user4@gmail.com",
+      "firstName": "user4",
+      "lastName": "user4",
+      "password": "asASD876!@"
+    }
+  },
+  {
+    "function": "Register",
+    "params": {
+      "email": "user5@gmail.com",
+      "firstName": "user5",
+      "lastName": "user5",
+      "password": "asASD876!@"
+    }
+  },
+  {
+    "function": "Login",
+    "params": {
+      "password": "asASD876!@",
+      "email": "user2@gmail.com"
+    }
+  },
+  {
+    "function": "OpenNewStore",
+    "params": {
+      "storeName": "store1",
+      "email": "user2@gmail.com"
+    }
+  },
+  {
+    "function": "AddItemToStore",
+    "params": {
+      "itemName": "Apple",
+      "storeName": "store1",
+      "itemPrice": 20,
+      "itemQuantity": 10,
+      "itemCategory": "food",
+      "email": "user2@gmail.com"
+
+    }
+  },
+  {
+    "function": "Logout",
+    "params": {
+      "email": "user2@gmail.com"
+    }
+  }
+]
